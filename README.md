@@ -1,15 +1,12 @@
 ## Problem 
-Implement factory design pattern using Pet as the factory interface. The interface implements two methods: makeSound() and play().
 
-Dog and Cat are concrete objects that implements Pet interface.
-
-PetRecord holds attributes such as petId, petName, and Pet.
-
-Clinic would be the client object.
-
-Refer to the UML Class Diagram
+Implement the Prototype Design Pattern using Document as the prototype interface. The interface implements two methods: clone() and open().
+PdfDocument, TextDocument, and SpreadsheetDocument are concrete objects that implement the Document interface.
+DocumentRegistry holds the prototypes and is responsible for creating cloned instances of each document type.
+ProcessedDocument would be the client object.
 
 
 
 ## Class Diagram
-![image](https://github.com/JerryEsperanza/factoryPattern/assets/142370600/0506f134-a5f6-4d98-a817-cd6f7a8466c7)
+<img width="896" height="479" alt="image" src="https://github.com/user-attachments/assets/1f5aa298-ef28-44ce-9786-f358ff405e8e" />
+
